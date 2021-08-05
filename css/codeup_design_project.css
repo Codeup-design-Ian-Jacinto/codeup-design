@@ -1,0 +1,10 @@
+.circle {
+    border:  2px solid white;
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    text-align: center;
+    padding-top: 35px;
+    font-weight: bold;
+    color: white;
+}
