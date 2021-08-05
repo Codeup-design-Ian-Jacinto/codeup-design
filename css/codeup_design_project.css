@@ -8,3 +8,32 @@
     font-weight: bold;
     color: white;
 }
+
+h1 {
+    font-family: Anton Regular;
+}
+
+p {
+    font-family: Abel;
+}
+
+.card {
+    background-color: darkgray;
+}
+
+.card-body {
+    background-color: lightgray;
+}
+
+h5 {
+    margin-bottom: 40px;
+}
+
+.left-i {
+    float:left;
+    margin-right: 10px;
+}
+
+.left-h {
+    position:relative;
+}
