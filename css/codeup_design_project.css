@@ -10,7 +10,11 @@
 }
 
 h1 {
-    font-family: Anton Regular;
+    font-family: Impact;
+}
+
+h2 {
+    font-family: Impact;
 }
 
 p {
@@ -36,4 +40,31 @@ h5 {
 
 .left-h {
     position:relative;
+}
+
+#twitter {
+    background: lightgray;
+}
+
+
+.dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    float: right;
+    font-size: small;
+    font-weight: bold;
+    position: relative;
+    bottom: 40px;
+    margin: 10px;
+    margin-top: 5px;
+    margin-right: auto;
+    font-family: Impact;
+
+}
+
+.twitter-last-tweet {
+    margin-top: 10px;
 }
