@@ -1,24 +1,70 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    /*border: 5px solid green*/
+}
+
+nav a {
+    font-size: .75em;
+    color: black;
+}
+
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
+}
+
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
+}
+
+.red {
+    background: #E6563B;
+}
+.orange {
+    background-color: #EB9D3A;
+}
+.green {
+    background-color: #7CB06C;
+}
+.blue {
+    background-color: #00ABA9;
+}
 .circle {
-    border:  2px solid white;
+    border: 5px solid white;
     border-radius: 50%;
     width:100px;
     height:100px;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 33px;
     font-weight: bold;
     color: white;
+    margin: 0;
 }
 
-h1 {
-    font-family: Impact;
+.circle-div {
+    text-align: center;
+    margin: 0 auto;
+    /*border: 5px solid blue*/
 }
 
-h2 {
-    font-family: Impact;
+header {
+    font-family: 'Anton', sans-serif;
 }
 
 p {
-    font-family: Abel;
+    text-align: left;
+    font-family: 'Abel', sans-serif;
 }
 
 .card {
@@ -46,7 +92,13 @@ h5 {
     background: lightgray;
 }
 
+.content {
+    /*border: 5px solid orange*/
+}
 
+.dot-parent {
+    position: relative;
+}
 .dot {
     height: 20px;
     width: 20px;
